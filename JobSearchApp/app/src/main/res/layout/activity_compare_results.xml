@@ -1,0 +1,400 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CompareResults">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tHeader"
+            android:layout_width="match_parent"
+            android:layout_height="67dp"
+            android:gravity="center"
+            android:text="Comparison Results"
+            android:textSize="24sp" />
+
+        <TableLayout
+            android:layout_width="408dp"
+            android:layout_height="536dp"
+            android:layout_gravity="center">
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#D3D3D3">
+
+                <TextView
+                    android:id="@+id/crTitle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:width="140sp"
+                    android:gravity="right"
+                    android:maxWidth="140sp"
+                    android:minWidth="140sp"
+                    android:paddingLeft="4sp"
+                    android:paddingRight="4sp"
+                    android:text="Title"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:id="@+id/crTitle1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="placeholder" />
+
+                <TextView
+                    android:id="@+id/crTitle2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="placeholder" />
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:id="@+id/crCompany"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:width="140sp"
+                    android:gravity="right"
+                    android:maxWidth="140sp"
+                    android:minWidth="140sp"
+                    android:paddingLeft="4sp"
+                    android:paddingRight="4sp"
+                    android:text="Company"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:id="@+id/crCompany1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="placeholder" />
+
+                <TextView
+                    android:id="@+id/crCompany2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="placeholder" />
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#D3D3D3">
+
+                <TextView
+                    android:id="@+id/crCity"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:width="140sp"
+                    android:gravity="right"
+                    android:maxWidth="140sp"
+                    android:minWidth="140sp"
+                    android:paddingLeft="4sp"
+                    android:paddingRight="4sp"
+                    android:text="City"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:id="@+id/crCity1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="placeholder" />
+
+                <TextView
+                    android:id="@+id/crCity2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="placeholder" />
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:id="@+id/crState"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:width="140sp"
+                    android:gravity="right"
+                    android:maxWidth="140sp"
+                    android:minWidth="140sp"
+                    android:paddingLeft="4sp"
+                    android:paddingRight="4sp"
+                    android:text="State"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:id="@+id/crState1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="placeholder" />
+
+                <TextView
+                    android:id="@+id/crState2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="placeholder" />
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#D3D3D3">
+
+                <TextView
+                    android:id="@+id/crSalaryAdj"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:width="140sp"
+                    android:gravity="right"
+                    android:maxWidth="140sp"
+                    android:minWidth="140sp"
+                    android:paddingLeft="4sp"
+                    android:paddingRight="4sp"
+                    android:text="Adjusted Yearly Salary"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:id="@+id/crSalaryAdj1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="placeholder" />
+
+                <TextView
+                    android:id="@+id/crSalaryAdj2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="placeholder" />
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:id="@+id/crBonusAdj"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:width="140sp"
+                    android:gravity="right"
+                    android:maxWidth="140sp"
+                    android:minWidth="140sp"
+                    android:paddingLeft="4sp"
+                    android:paddingRight="4sp"
+                    android:text="Adjusted Yearly Bonus"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:id="@+id/crBonusAdj1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="placeholder" />
+
+                <TextView
+                    android:id="@+id/crBonusAdj2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="placeholder" />
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#D3D3D3">
+
+                <TextView
+                    android:id="@+id/crStocks"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:width="140sp"
+                    android:gravity="right"
+                    android:maxWidth="140sp"
+                    android:minWidth="140sp"
+                    android:paddingLeft="4sp"
+                    android:paddingRight="4sp"
+                    android:text="Stock Option Shares"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:id="@+id/crStocks1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="placeholder" />
+
+                <TextView
+                    android:id="@+id/crStocks2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="placeholder" />
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:id="@+id/crHomeBuyFund"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:width="140sp"
+                    android:gravity="right"
+                    android:maxWidth="140sp"
+                    android:minWidth="140sp"
+                    android:paddingLeft="4sp"
+                    android:paddingRight="4sp"
+                    android:text="Home Buying Program Fund"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:id="@+id/crHomeBuyFund1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="placeholder" />
+
+                <TextView
+                    android:id="@+id/crHomeBuyFund2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="placeholder" />
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#D3D3D3">
+
+                <TextView
+                    android:id="@+id/crHolidays"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:width="140sp"
+                    android:gravity="right"
+                    android:maxWidth="140sp"
+                    android:minWidth="140sp"
+                    android:paddingLeft="4sp"
+                    android:paddingRight="4sp"
+                    android:text="Personal Choice Holidays"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:id="@+id/crHolidays1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="placeholder" />
+
+                <TextView
+                    android:id="@+id/crHolidays2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="placeholder" />
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:id="@+id/crInternetStipend"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:width="140sp"
+                    android:gravity="right"
+                    android:maxWidth="140sp"
+                    android:minWidth="140sp"
+                    android:paddingLeft="4sp"
+                    android:paddingRight="4sp"
+                    android:text="Monthly Internet Stipend"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:id="@+id/crInternetStipend1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="placeholder" />
+
+                <TextView
+                    android:id="@+id/crInternetStipend2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="placeholder" />
+
+            </TableRow>
+        </TableLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <Space
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1" />
+
+            <Button
+                android:id="@+id/bExit"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="onExitPress"
+                android:text="Exit" />
+
+            <Space
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1" />
+
+            <Button
+                android:id="@+id/bNewComparison"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="onNewComparisonPress"
+                android:text="New Comparison" />
+
+            <Space
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

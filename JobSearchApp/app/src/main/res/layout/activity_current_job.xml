@@ -1,0 +1,424 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CurrentJob">
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/tHeader"
+            android:layout_width="match_parent"
+            android:layout_height="91dp"
+            android:gravity="center"
+            android:text="Enter Current Job  Details"
+            android:textSize="34sp"
+            tools:ignore="HardcodedText" />
+
+        <TableLayout
+            android:layout_width="399dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="0dp"
+            android:gravity="center"
+            tools:ignore="TextSizeCheck">
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#D3D3D3">
+
+                <TextView
+                    android:id="@+id/tTitle"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="center|end"
+                    android:paddingLeft="4sp"
+                    android:paddingRight="4sp"
+                    android:text="Title"
+                    android:textSize="16sp"
+                    tools:ignore="HardcodedText" />
+
+                <EditText
+                    android:id="@+id/textFieldTitle"
+                    android:layout_width="0sp"
+                    android:layout_height="50sp"
+                    android:layout_weight="1.618"
+                    android:autofillHints=""
+                    android:ems="10"
+                    android:hint="Title"
+                    android:inputType="text"
+                    android:minHeight="50sp"
+                    android:textColorHint="#545454"
+                    android:textSize="18sp"
+                    tools:ignore="HardcodedText,LabelFor,DuplicateSpeakableTextCheck" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:id="@+id/tCompany"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="center|end"
+                    android:paddingLeft="4sp"
+                    android:paddingRight="4sp"
+                    android:text="Company"
+                    android:textSize="16sp"
+                    tools:ignore="HardcodedText" />
+
+                <EditText
+                    android:id="@+id/textFieldCompany"
+                    android:layout_width="0sp"
+                    android:layout_height="50sp"
+                    android:layout_weight="1.618"
+                    android:autofillHints=""
+                    android:ems="10"
+                    android:hint="Company"
+                    android:inputType="text"
+                    android:minHeight="50sp"
+                    android:textColorHint="#666666"
+                    android:textSize="18sp"
+                    tools:ignore="HardcodedText,LabelFor,DuplicateSpeakableTextCheck" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#D3D3D3">
+
+                <TextView
+                    android:id="@+id/tCity"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="center|end"
+                    android:paddingLeft="4sp"
+                    android:paddingRight="4sp"
+                    android:text="City"
+                    android:textSize="16sp"
+                    tools:ignore="HardcodedText" />
+
+                <EditText
+                    android:id="@+id/textFieldCity"
+                    android:layout_width="0sp"
+                    android:layout_height="50sp"
+                    android:layout_weight="1.618"
+                    android:autofillHints=""
+                    android:ems="10"
+                    android:hint="City"
+                    android:inputType="text"
+                    android:minHeight="50sp"
+                    android:textColorHint="#545454"
+                    android:textSize="18sp"
+                    tools:ignore="HardcodedText,LabelFor,SpeakableTextPresentCheck,DuplicateSpeakableTextCheck" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:id="@+id/tState"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="center|end"
+                    android:paddingLeft="4sp"
+                    android:paddingRight="4sp"
+                    android:text="State"
+                    android:textSize="16sp"
+                    tools:ignore="HardcodedText" />
+
+                <EditText
+                    android:id="@+id/textFieldState"
+                    android:layout_width="0sp"
+                    android:layout_height="50sp"
+                    android:layout_weight="1.618"
+                    android:autofillHints=""
+                    android:ems="10"
+                    android:hint="State"
+                    android:inputType="text"
+                    android:minHeight="50sp"
+                    android:textColorHint="#666666"
+                    android:textSize="18sp"
+                    tools:ignore="HardcodedText,LabelFor,DuplicateSpeakableTextCheck" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#D3D3D3">
+
+                <TextView
+                    android:id="@+id/tCoL"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="center|end"
+                    android:paddingLeft="4sp"
+                    android:paddingRight="4sp"
+                    android:text="Cost of Living Index"
+                    android:textSize="16sp"
+                    tools:ignore="HardcodedText" />
+
+                <EditText
+                    android:id="@+id/textFieldCoL"
+                    android:layout_width="0sp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1.618"
+                    android:autofillHints=""
+                    android:ems="10"
+                    android:hint="Cost of Living"
+                    android:inputType="number"
+                    android:minHeight="50sp"
+                    android:textColorHint="#545454"
+                    tools:ignore="HardcodedText,LabelFor" />
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:id="@+id/tSalary"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="center|end"
+                    android:paddingLeft="4sp"
+                    android:paddingRight="4sp"
+                    android:text="Yearly Salary"
+                    android:textSize="16sp"
+                    tools:ignore="HardcodedText" />
+
+                <EditText
+                    android:id="@+id/textFieldSalary"
+                    android:layout_width="0sp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1.618"
+                    android:autofillHints=""
+                    android:ems="10"
+                    android:hint="Salary"
+                    android:inputType="number"
+                    android:minHeight="50sp"
+                    android:textColorHint="#666666"
+                    tools:ignore="HardcodedText,LabelFor" />
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#D3D3D3">
+
+                <TextView
+                    android:id="@+id/tBonus"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="center|end"
+                    android:paddingLeft="4sp"
+                    android:paddingRight="4sp"
+                    android:text="Yearly Bonus"
+                    android:textSize="16sp"
+                    tools:ignore="HardcodedText" />
+
+                <EditText
+                    android:id="@+id/textFieldBonus"
+                    android:layout_width="0sp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1.618"
+                    android:autofillHints=""
+                    android:ems="10"
+                    android:hint="Bonus"
+                    android:inputType="number"
+                    android:minHeight="50sp"
+                    android:textColorHint="#545454"
+                    tools:ignore="HardcodedText,LabelFor" />
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="100dp">
+
+                <TextView
+                    android:id="@+id/tStockOptions"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="center|end"
+                    android:paddingLeft="4sp"
+                    android:paddingRight="4sp"
+                    android:text="Stock Option Shares"
+                    android:textSize="16sp"
+                    tools:ignore="HardcodedText" />
+
+                <EditText
+                    android:id="@+id/textFieldStockOptions"
+                    android:layout_width="0sp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1.618"
+                    android:autofillHints=""
+                    android:ems="10"
+                    android:hint="Stock options"
+                    android:inputType="number"
+                    android:minHeight="50sp"
+                    android:textColorHint="#666666"
+                    tools:ignore="HardcodedText,LabelFor" />
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="58dp"
+                android:background="#D3D3D3">
+
+                <TextView
+                    android:id="@+id/tHomeFund"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="center|end"
+                    android:minWidth="60sp"
+                    android:paddingLeft="4sp"
+                    android:paddingRight="4sp"
+                    android:text="Home Buying Program Fund"
+                    android:textSize="16sp"
+                    tools:ignore="HardcodedText" />
+
+                <EditText
+                    android:id="@+id/textFieldHomeFund"
+                    android:layout_width="0sp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1.618"
+                    android:autofillHints=""
+                    android:ems="10"
+                    android:hint="Home Fund"
+                    android:inputType="number"
+                    android:minHeight="50sp"
+                    android:textColorHint="#545454"
+                    tools:ignore="HardcodedText,LabelFor" />
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:id="@+id/tPersonalHolidays"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="center|end"
+                    android:paddingLeft="4sp"
+                    android:paddingRight="4sp"
+                    android:text="Personal Choice Holidays"
+                    android:textSize="16sp"
+                    tools:ignore="HardcodedText" />
+
+                <EditText
+                    android:id="@+id/textFieldPersonalHolidays"
+                    android:layout_width="0sp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1.618"
+                    android:autofillHints=""
+                    android:ems="10"
+                    android:hint="Personal Holidays"
+                    android:inputType="number"
+                    android:minHeight="50sp"
+                    android:textColorHint="#666666"
+                    tools:ignore="HardcodedText,LabelFor" />
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#D3D3D3">
+
+                <TextView
+                    android:id="@+id/tInternetStipend"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="center|end"
+                    android:paddingLeft="4sp"
+                    android:paddingRight="4sp"
+                    android:text="Monthly Internet Stipend"
+                    android:textSize="16sp"
+                    tools:ignore="HardcodedText" />
+
+                <EditText
+                    android:id="@+id/textFieldInternetStipend"
+                    android:layout_width="0sp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1.618"
+                    android:autofillHints=""
+                    android:ems="10"
+                    android:hint="Internet stipend"
+                    android:inputType="number"
+                    android:minHeight="50sp"
+                    android:textColorHint="#545454"
+                    tools:ignore="HardcodedText,LabelFor" />
+
+            </TableRow>
+        </TableLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <Space
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1" />
+
+            <Button
+                android:id="@+id/bExit"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="onExitPress"
+                android:text="Exit"
+                tools:ignore="HardcodedText" />
+
+            <Space
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1" />
+
+            <Button
+                android:id="@+id/bSaveExit"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="onSaveExitPress"
+                android:text="Save and Exit"
+                tools:ignore="HardcodedText" />
+
+            <Space
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1" />
+
+        </LinearLayout>
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
