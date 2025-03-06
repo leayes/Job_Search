@@ -20,5 +20,5 @@ The Job Offers Manager is an Android application designed to help users store an
 ## Installation and Setup
 1. **Clone the Repository:**
    ```sh
-   git clone https://github.com/yourusername/job-offers-manager.git
-   cd job-offers-manager
+   git clone https://github.com/leayes/Job_Search.git
+
