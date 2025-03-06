@@ -1,6 +1,6 @@
-# template-team
 
-# Job Offers Manager Android App
+
+# Job Search Manager Android App
 
 ## Project Overview
 The Job Offers Manager is an Android application designed to help users store and rate job offers based on various factors such as salary, location, company reputation, and benefits. The app allows users to input job offer details, rate them, and compare offers to make informed decisions.
